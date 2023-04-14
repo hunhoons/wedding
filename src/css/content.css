@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{
+	cursor: none;
+}
+
+/* img-wrap, video-wrap */
+.img-wrap,
+.video-wrap{width: 100%; vertical-align: top;}
+.img-wrap img,
+.video-wrap video{width: 100%; height: 100%; object-fit: contain;}
+
+
+/* cursor */
+.cursor{position: fixed; top: 0; left: 0; width: 32px; height: 32px; background-color: #111; border-radius: 50%;}
+
+#content.main .section.visual{position: relative;}
+#content.main .section.visual::after{content: ""; position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; 
+	background-color: rgba(0,0,0,0.2);
+	-webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
