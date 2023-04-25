@@ -1,15 +1,4 @@
-@import url("./css/font.css");
-@import url("./css/content.css");
-body {
-  margin: 0;
-  font-family: 'Pretendard', 'Nunito',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@charset "utf-8";
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* 전체 css */
+@import url('App.css');

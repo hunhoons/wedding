@@ -1,0 +1,28 @@
+:root{ /* Color */
+	--bgColor : #f9f5ea;
+	--black : #000;
+	--white : #fff;
+}
+
+
+:root{ /* font-size */
+	--titleFont : 120px;
+}
+@media all and (min-width:1921px) {
+	
+}
+/* @media all and (min-width:1181px) and (max-width:1920px) {
+	:root{ 
+		--titleFont : 6.780vw;
+	}
+}
+@media all and (min-width:768px) and (max-width:1180px) {
+	:root{ 
+		--titleFont : 10.417vw;
+	}
+}
+@media all and (max-width:767px) {
+	:root{ 
+		--titleFont : 10.667vw;
+	}
+} */
