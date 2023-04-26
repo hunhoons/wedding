@@ -35,3 +35,12 @@
 
 
 /* gallery */
+.section.gallery{position: relative; background: rgba(0,0,0,0.3); color: #fff;}
+.section.gallery,
+.section.gallery .cc{
+	display: flex;
+}
+.section.gallery p{
+	font-size: 40px;
+	width: 600px;
+}
