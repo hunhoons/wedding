@@ -1,28 +1,33 @@
-:root{ /* Color */
+:root{
+
+	/* inner */
+	--pd : 30px;
+	--pd-l : 30px;
+	--pd-r : 30px;
+
+	/* Color */
 	--bgColor : #f9f5ea;
 	--black : #000;
 	--white : #fff;
-}
-
-
-:root{ /* font-size */
-	--titleFont : 120px;
-}
-@media all and (min-width:1921px) {
 	
+	/* fontSize */
+	--titleFont : 120px;
+
 }
-/* @media all and (min-width:1181px) and (max-width:1920px) {
+@media all and (min-width:1181px) and (max-width:1920px) {
 	:root{ 
-		--titleFont : 6.780vw;
+		
 	}
 }
 @media all and (min-width:768px) and (max-width:1180px) {
 	:root{ 
-		--titleFont : 10.417vw;
+		
 	}
 }
 @media all and (max-width:767px) {
 	:root{ 
-		--titleFont : 10.667vw;
+		--pd : 4.267vw;
+		--pd-l : 4.267vw;
+		--pd-r : 4.267vw;
 	}
-} */
+}

@@ -5,15 +5,20 @@
 @import url('./@resource/css/font.css');
 @import url('./@resource/css/reset.css');
 
-/* content */
-#wrap .visual-wrap{position: relative; width: 100%; height: 100vh; padding: 30px;}
-#wrap .visual-wrap .text-wrap{border: 1px solid black; width: 100%; height: 100%;
+#wrap .section,
+#wrap .section.visual .visual-wrap{
+	height: 100vh; /* 브라우저 체크용 */
+	height: calc(var(--vh, 1vh) * 100); /* ios vh */
+}
+
+/* visual */
+#wrap .section.visual{position: relative;}
+#wrap .section.visual .visual-wrap{position: relative; width: 100%; padding: var(--pd);}
+#wrap .section.visual .visual-wrap .text-wrap{border: 1px solid black; width: 100%; height: 100%;
 	display: flex; flex-direction: column; justify-content: flex-end;
 }
 #wrap .visual-wrap .text-wrap .title{font-size: var(--titleFont);}
 #wrap .visual-wrap .text-wrap .text{}
-
-
 
 @media all and (min-width:1921px) {
 	
@@ -27,3 +32,6 @@
 @media all and (max-width:767px) {
 
 }
+
+
+/* gallery */
