@@ -1,7 +1,8 @@
 @charset "utf-8";
 
-
-
+/* inner, gutter */
+.inner{padding: var(--pd);}
+.gutter{padding-left: var(--pd-l); padding-right: var(--pd-r);}
 
 
 /* size */

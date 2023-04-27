@@ -13,7 +13,7 @@ const Main = ()=>{
 		<div id="content" className="content">
 			<Visual />
 			<Greetings />
-			{/* <Gallery /> */}
+			<Gallery />
 			<Bank />
 			<Messages />
 		</div>

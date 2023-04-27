@@ -4,6 +4,11 @@
 @import url('./@resource/css/var.css');
 @import url('./@resource/css/font.css');
 @import url('./@resource/css/reset.css');
+@import url('./@resource/css/common.css');
+
+body{
+	overscroll-behavior: none;
+}
 
 #wrap .section,
 #wrap .section.visual .visual-wrap{
@@ -35,12 +40,16 @@
 
 
 /* gallery */
-.section.gallery{position: relative; background: rgba(0,0,0,0.3); color: #fff;}
-.section.gallery,
-.section.gallery .cc{
-	display: flex;
+#wrap .section.gallery{ position: relative; width: 100%; background-color: rgba(0,0,0,0.5);}
+#wrap .section.gallery .sticky-elem{overflow: hidden; position: sticky; top: 0; left: 0; bottom: 0; height: 100vh; height: calc(var(--vh, 1vh) * 100);
+	display: flex; align-items: center; justify-content: flex-start; 
 }
-.section.gallery p{
-	font-size: 40px;
-	width: 600px;
+#wrap .section.gallery .gutter,
+#wrap .section.gallery ul{width: 100%; height: 100%; display: -webkit-box;display: -ms-flexbox;display: flex;}
+#wrap .section.gallery ul{
+	-webkit-box-align: center; -ms-flex-align: center; align-items: center; 
+	-webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start;
 }
+#wrap .section.gallery ul li{min-width: 50vw;}
+#wrap .section.gallery .item.gallery .title{font-size: 40px; font-weight: 600;}
+#wrap .section.gallery .item.gallery .title + .text{padding-top: 15px;}
