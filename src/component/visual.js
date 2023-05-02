@@ -20,8 +20,8 @@ const Visual = ()=>{
 					</video> */}
 				</div>
 				<div className="text-wrap">
-					<h2 className="title">테스트</h2>
-					<p className="text">23.04.25</p>
+					{/* <h2 className="title">테스트</h2>
+					<p className="text">23.04.25</p> */}
 				</div>
 			</div>
 		</section>

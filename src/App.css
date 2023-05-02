@@ -53,3 +53,14 @@ body{
 #wrap .section.gallery ul li{min-width: 50vw;}
 #wrap .section.gallery .item.gallery .title{font-size: 40px; font-weight: 600;}
 #wrap .section.gallery .item.gallery .title + .text{padding-top: 15px;}
+
+
+
+
+.section.cc{position: relative; background: rgba(0,0,0,0.5); }
+.section.cc .inner{position: sticky; top: 0; left: 0; height: 100vh;
+display: flex; align-items: center; }
+.section.cc .list-wrap{ height: 100%;
+	display: flex; align-items: center; justify-content: flex-start;
+}
+.section.cc .list-wrap li{min-width: 55vw;}
